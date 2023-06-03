@@ -1,0 +1,99 @@
+header,nav,aside,section,footer{
+    display: block;
+}
+
+.cabecera{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: wheat;
+    color: black;
+}
+
+body{
+    background: black;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    display: inline-block;
+    border: solid orange;
+    text-align: center;
+    width: 150px;
+    height: 10px;
+    background-color: rgb(147, 97, 5);
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+li:hover{
+    background-color: darksalmon;
+}
+
+.seccion p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.imagen{
+    width: 300px;
+    height: 350px;
+    border: solid rgb(210, 203, 203) 2px;
+    border-radius: 10px;
+}
+
+article{
+    display: inline-table;
+    width: 300px;
+    margin: 20px;
+}
+
+.pie{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.animes{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+.pagina{
+    border: double orange;
+    color: white;
+}
+
+.comentario{
+    display: grid;
+    margin: 20px;
+}
+
+.cajaComentario{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.insertar{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+}
+
+.botonComentario{
+    width: 150px;
+    height: 30px;
+}
+
